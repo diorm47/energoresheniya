@@ -1,0 +1,13 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip4_21289">
+			<rect id="Icon cpu-chip" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip4_21289)">
+		<path id="Icon" d="M9 2L9 5M15 2L15 5M9 19L9 22M15 19L15 22M19 9L22 9M19 14L22 14M2 9L5 9M2 14L5 14M14.2 5C15.88 5 16.72 5 17.36 5.32C17.92 5.61 18.38 6.07 18.67 6.63C19 7.27 19 8.11 19 9.8L19 14.2C19 15.88 19 16.72 18.67 17.36C18.38 17.92 17.92 18.38 17.36 18.67C16.72 19 15.88 19 14.2 19L9.79 19C8.11 19 7.27 19 6.63 18.67C6.07 18.38 5.61 17.92 5.32 17.36C5 16.72 5 15.88 5 14.2L5 9.8C5 8.11 5 7.27 5.32 6.63C5.61 6.07 6.07 5.61 6.63 5.32C7.27 5 8.11 5 9.79 5L14.2 5Z" stroke="#1E1E1E" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
