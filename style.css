@@ -22,6 +22,10 @@ textarea {
   outline: none;
   resize: none;
 }
+button {
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
 
 .container {
   width: 100%;
@@ -50,6 +54,10 @@ textarea {
   line-height: 116%;
   letter-spacing: 0%;
   text-align: left;
+  cursor: pointer;
+}
+.nav_menu p:hover {
+  text-decoration: underline;
 }
 
 .main_btn {
@@ -65,6 +73,10 @@ textarea {
   text-align: center;
   background: rgb(253, 206, 81);
   cursor: pointer;
+}
+.main_btn:hover {
+  background: rgb(255, 194, 25);
+  transition: all 0.4s ease;
 }
 
 .nav_btn {
@@ -99,11 +111,15 @@ header {
   text-align: center;
   margin-bottom: 40px;
   max-width: 668px;
+  position: relative;
+  z-index: 1;
 }
 
 .header_btn {
   height: 72px;
   width: 320px;
+  position: relative;
+  z-index: 1;
 }
 
 .header_top {
@@ -808,7 +824,9 @@ footer {
   letter-spacing: 0%;
   text-align: left;
 }
-
+.contacts_adress a h4:hover {
+  text-decoration: underline;
+}
 .footer_btm {
   padding-top: 24px;
   /* Black */
@@ -853,6 +871,9 @@ footer {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.footer_menu p:hover {
+  text-decoration: underline;
+}
 
 .footer_policy {
   /* Gray Inputs */
@@ -871,4 +892,272 @@ footer {
   line-height: 116%;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.footer_policy a p:hover {
+  text-decoration: underline;
+}
+
+.partners_card img,
+.numbers_img,
+.your_project_gallery img {
+  width: 100%;
+}
+.numbers_img {
+  height: 580px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+@media only screen and (max-width: 1400px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .services_btm .service_card_img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main_wrapper {
+    overflow: hidden;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .nav_logo {
+    width: 170px;
+  }
+  .nav_wrapper .nav_menu,
+  .nav_wrapper .nav_btn {
+    display: none;
+  }
+  header {
+    padding-top: 50px;
+  }
+  .header_top h1 {
+    font-size: 29px;
+    margin-bottom: 15px;
+  }
+  br {
+    display: none;
+  }
+  .header_top h2 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .header_images {
+    display: none;
+  }
+  .header_btn {
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .header_top {
+    padding-bottom: 30px;
+  }
+  .header_cards,
+  .partners_cards,
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header_card {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  section {
+    padding: 30px 20px;
+  }
+  .secondary_title {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section_title h2 {
+    font-size: 24px;
+  }
+  .section_title h4 {
+    font-size: 15px;
+  }
+  .section_title {
+    margin-bottom: 20px;
+  }
+  .partners_card {
+    padding: 15px;
+    gap: 10px;
+  }
+  .partners_card h3 {
+    font-size: 20px;
+  }
+  .partners_card p {
+    font-size: 12px;
+  }
+  .numbers,
+  .num_col_mid {
+    padding: 15px;
+  }
+  .numbers_img,
+  .num_col_mid,
+  .num_col_lit {
+    height: auto;
+  }
+  .num_col_mid,
+  .num_col_lit {
+    gap: 20px;
+  }
+  .num_col h5 {
+    font-size: 25px;
+  }
+  .services_top {
+    flex-direction: column;
+  }
+  .service_card {
+    width: 100% !important;
+  }
+  .service_card_img img {
+    width: 100%;
+  }
+
+  .arrow_btn {
+    width: 30px;
+    height: 30px;
+  }
+  .service_card h5 {
+    font-size: 20px;
+  }
+  .service_card {
+    padding: 15px;
+  }
+  .services_btm,
+  .project_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .project_card {
+    padding: 15px;
+    gap: 20px;
+  }
+  .project_card_title h4 {
+    font-size: 20px;
+  }
+
+  .project_card_title {
+    margin-bottom: 15px;
+  }
+  .project_card_desc h5 {
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  .project_card_desc_text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .project_info {
+    flex-direction: column;
+  }
+  .project_info div {
+    width: 100% !important;
+  }
+  .show_all {
+    margin-top: 30px;
+  }
+  .geography {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .geography_map,
+  .geography_desc {
+    width: 100%;
+  }
+  .geography_desc {
+    padding: 16px;
+  }
+  .geography_desc_item h3 {
+    font-size: 20px;
+  }
+  .geography_desc_items {
+    gap: 20px;
+  }
+  .your_project_gallery {
+    display: flex;
+    flex-direction: column;
+  }
+  .solution_item {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .solution_item_desc,
+  .solution_item_img {
+    width: 100%;
+  }
+  .solution_item_desc h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .solution_item_desc p {
+    font-size: 14px;
+  }
+  .partners_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .partners_list div {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+  .footer_top {
+    padding: 30px 10px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .form_title h4 {
+    font-size: 23px;
+  }
+  .form_title p {
+    font-size: 15px;
+  }
+  .form_title {
+    margin-bottom: 20px;
+  }
+  .footer_form_wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_form .main_btn {
+    width: 100%;
+  }
+  .confirm {
+    margin-bottom: 20px;
+  }
+  .contacts_adress div {
+    margin-bottom: 20px;
+  }
+  .contacts_adress h4 {
+    font-size: 20px;
+  }
+  .footer_btm {
+    padding-top: 0;
+  }
+  .main_footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer_menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer_policy {
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+  .main_footer {
+    padding-top: 30px;
+  }
 }
