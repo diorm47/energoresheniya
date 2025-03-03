@@ -21,6 +21,30 @@
             <p>О компании</p>
           </div>
           <button class="main_btn nav_btn">Скачать опросный лист</button>
+          <img
+            class="mob_menu menu_btns"
+            onclick="toggleMenu()"
+            src="./assets/icons/Hamburger_icon.png"
+            alt=""
+          />
+        </div>
+        <div class="mob_menu_wrapper">
+          <div class="mob_exit_btn">
+            <img
+              class="mob_menu_exit menu_btns"
+              src="./assets/icons/menu_close.png"
+              alt=""
+              onclick="toggleMenu()"
+            />
+          </div>
+          <div class="nav_menu">
+            <p>Услуги</p>
+            <p>Портфолио</p>
+            <p>Блог</p>
+            <p>Контакты</p>
+            <p>О компании</p>
+          </div>
+          <button class="main_btn nav_btn">Скачать опросный лист</button>
         </div>
       </nav>
       <header>
@@ -609,5 +633,12 @@
         </div>
       </footer>
     </div>
+    <script>
+      function toggleMenu() {
+        document
+          .querySelector(".mob_menu_wrapper")
+          .classList.toggle("visible_mob_menu_wrapper");
+      }
+    </script>
   </body>
 </html>
